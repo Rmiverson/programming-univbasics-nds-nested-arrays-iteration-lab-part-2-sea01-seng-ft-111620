@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
       
       if !output[ri]
         output[ri] = 0
-      elsif src[ri][ei] > output[ri]
+      elsif src[ri][ei] < output[ri]
         output[ri] = src[ri][ei]
       end
       
