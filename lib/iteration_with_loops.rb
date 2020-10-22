@@ -15,8 +15,8 @@ def find_min_in_nested_arrays(src)
       ei += 1
     end
     ri += 1
-    end
   end
+  
 
   output
 end
