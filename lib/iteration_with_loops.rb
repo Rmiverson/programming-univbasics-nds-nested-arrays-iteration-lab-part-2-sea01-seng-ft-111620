@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
     ei = 0
     while ei < src[ri].count do
       
-      if output[ri]
+      if !output[ri]
         output[ri] = 0
       elsif src[ri][ei] > output[ri]
         output[ri] = src[ri][ei]
